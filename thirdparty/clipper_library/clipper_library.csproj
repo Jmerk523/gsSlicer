@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\geometry3Sharp\geometry3Sharp.csproj" />
+    <!-- <ProjectReference Include="..\..\..\geometry3Sharp\geometry3Sharp.csproj" /> -->
+    <PackageReference Include="geometry3Sharp">
+      <Version>1.0.289</Version>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

@@ -24,7 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj" />
+    <!-- <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj" /> -->
+    <PackageReference Include="geometry3Sharp">
+      <Version>1.0.289</Version>
+    </PackageReference>
     <ProjectReference Include="..\gsGCode\gsGCode.csproj" />
     <ProjectReference Include="thirdparty\clipper_library\clipper_library.csproj" />
   </ItemGroup>
