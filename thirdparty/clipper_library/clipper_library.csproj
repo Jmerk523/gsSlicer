@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <ProjectReference Include="..\..\..\geometry3Sharp\geometry3Sharp.csproj" /> -->
-    <PackageReference Include="geometry3Sharp">
-      <Version>1.0.289</Version>
+    <ProjectReference Include="..\..\..\geometry3Sharp\geometry3Sharp.csproj" />
+    <PackageReference Include="UnityEngine">
+      <Version>2.0.1</Version>
     </PackageReference>
   </ItemGroup>
 
