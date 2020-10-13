@@ -35,4 +35,9 @@
     <ProjectReference Include="..\gsGCode\gsGCode.csproj" />
     <ProjectReference Include="thirdparty\clipper_library\clipper_library.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="slicing\MeshPlanarSlicerPro.cs" />
+    <None Include="slicing\PlanarSlicePro.cs" />
+  </ItemGroup>
 </Project>
